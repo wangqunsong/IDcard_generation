@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>中国大陆身份证号码生成器</title>
+<meta name="Keywords" content="身份证,身份证大全,身份证号码大全,身份证号码生成,身份证查询, 身份证号码大全和姓名, 身份证号, 身份证号码, 身份证号码生成器, 身份证号码查询, 身份证号大全" />
+<meta name="Description" content="指定出生地、出生日期及性别就可生成1到999个格式正确的身份证号码！切记不可用于非法活动，否则后果自负！" />
+<link href="images/style.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="favicon.ico" /> 
+<link href="images/Simple.min.css" rel="stylesheet" type="text/css" />
+<script language="javascript" src="images/area.js"></script>
+<script language="javascript" src="images/datejs.js"></script>
+<script language="javascript" src="images/js.js"></script>
+<script language="javascript" src="images/function.js"></script>
+</head>
+
+<body onload="YYYYMMDDstart(document.form1,document.form1.SYear,document.form1.SMonth,document.form1.SDay),YYYYMMDDstart(document.form1,document.form1.EYear,document.form1.EMonth,document.form1.EDay)">
+<div id="wrapper">
+	<div class="pages" style="float: left; width:480px">
+    
+    <div class="column1">
+    <div class="block color2">
+    <form name="form1">
+   <div>指定出生地、出生日期及性别就可生成1到999个格式正确的身份证号码！<strong style="color:red">切记不可用于非法活动，否则后果自负！</strong></div>
+        <input type="hidden" value="select" name="action">
+        <div><span>地点：</span>
+        <select name="p" id="p"></select>
+        <select name="c" id="c"></select>
+        <select name="r" id="r"></select>
+        </div>
+        <div><span>时间：</span>
+        <select onchange="YYYYDD(this.value,document.form1.SMonth,document.form1.SDay)" id="y"   name="SYear"><option  value="2005">2005</option></select>年<select onchange="MMDD(this.value,document.form1.SYear,document.form1.SDay)" id="m" name="SMonth"><option value="1">1</option></select>月<select id="d" name="SDay"><option value="1">1</option></select>日</div>
+        <div><span>性别：</span><label><input type="radio" name="g" id="g1" value="1" checked="checked">男</label>
+        <label><input type="radio" name="g" id="g2" value="2">女</label></div>
+        <div><span>提交：</span><input type="text" name="n" id="n" size="3" maxlength="3" style="width:50px;" value="5">个</div>
+        <div class="center"><input id="go" value="提交" type="button" class="button white" onclick="ock()"></div>
+    </form>	
+    </div>
+    </div>
+    <div class="clear"></div>
+    <div class="rNo" id="rNo">
+		 
+    </div>
+    <div class="clear"></div>
+</div>
+	
+    </div>
+	
+</div>
+<script language="javascript" defer>
+new PCAS("p","c","r","110000-北京市","110100-市辖区","110101-东城区");
+</script>
+</body>
+</html>
+
+<script type="text/javascript">
+    /*960*60 创建于 2016-03-28*/
+    var cpro_id = "u2579761";
+</script>
+<!-- <script src="http://cpro.baidustatic.com/cpro/ui/c.js" type="text/javascript"></script> -->
+
+
+<script type="text/javascript">
+    /*960*60 创建于 2016-03-28*/
+    var cpro_id = "u2579766";
+</script>
+<!-- <script src="http://cpro.baidustatic.com/cpro/ui/c.js" type="text/javascript"></script> -->
+
+
+<script type="text/javascript">
+    /*200*200 创建于 2016-01-25*/
+    var cpro_id = "u2506428";
+</script>
+<!-- <script src="http://cpro.baidustatic.com/cpro/ui/c.js" type="text/javascript"></script> -->
+
+
+<br>
+<script>
+/*
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?b98067ce8be487198908346c04eed7f3";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+*/
+</script>
+
+
+
